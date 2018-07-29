@@ -1,4 +1,47 @@
+
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  width: 420px;
+  margin: 20px auto;
+  width: 90%
+}
+
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+
+@media screen and (min-width: 575px){
+  div, img {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  div, img {
+    margin: 1%;
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  img {
+    width: 100%;
+  }
 }
