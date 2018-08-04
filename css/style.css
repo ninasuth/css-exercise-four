@@ -8,19 +8,30 @@ body {
 }
 
 .container {
-  width: 420px;
-  margin: 20px auto;
-  width: 90%;
-  align-content: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .preview {
-  float: left;
-  margin: 1%;
   width: 100%;
   height: 250px;
   background-size: cover;
-  padding: 10px;
+}
+
+h1 {
+  font-size: 2.4em;
+  padding: 10%;
+  text-align: left;
+}
+
+h2 {
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+  letter-spacing: .2em;
+  text-align: center;
 }
 
 .baku {
@@ -42,22 +53,24 @@ body {
 @media screen and (min-width: 575px){
   .preview {
     width: 48%;
+    margin: 1% 1%;
+    height: 200px;
+    float: right;
   }
-}
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
 
 @media screen and (min-width: 991px){
   .preview {
     width: 23%;
+    margin: 2em 1%;
+    height: 200px;
+    float: left;
+    background-size: cover;
   }
-}
-
-
-h1 {
-  font-size: 125%;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-family: sans-serif;
-  letter-spacing: 2px;
+  .container {
+    width: 70%;
+  }
 }
